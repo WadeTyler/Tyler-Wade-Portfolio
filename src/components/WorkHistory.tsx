@@ -12,6 +12,7 @@ import {
 export const WorkHistory = () => {
   return (
     <div>
+      
       {timeline.map((item, index) => (
         <div
           className="flex md:flex-row flex-col space-y-10 md:space-y-0 space-x-10 my-20 relative"

@@ -6,28 +6,28 @@ import { twMerge } from "tailwind-merge";
 export const TechStack = () => {
   const stack = [
     {
-      title: "Next.js",
-      src: "/images/logos/next.png",
-
-      className: "h-10 w-14",
-    },
-    {
-      title: "AWS",
-      src: "/images/logos/aws.webp",
+      title: "JavaScript",
+      src: "/images/logos/javascript.png",
 
       className: "h-10 w-10",
     },
     {
-      title: "Figma",
-      src: "/images/logos/figma.png",
-
-      className: "h-10 w-8",
-    },
-    {
-      title: "Framer Motion",
-      src: "/images/logos/framer.webp",
+      title: "TypeScript",
+      src: "/images/logos/typescript.png",
 
       className: "h-10 w-10",
+    },
+    {
+      title: "Java",
+      src: "/images/logos/java.png",
+
+      className: "h-10 w-10",
+    },
+    {
+      title: "React",
+      src: "/images/logos/react.png",
+
+      className: "h-10 w-12",
     },
     {
       title: "Node",
@@ -36,17 +36,36 @@ export const TechStack = () => {
       className: "h-10 w-12",
     },
     {
+      title: "Next.js",
+      src: "/images/logos/next.png",
+
+      className: "h-10 w-14",
+    },
+    {
       title: "Tailwind",
       src: "/images/logos/tailwind.png",
 
       className: "h-10 w-24",
     },
     {
-      title: "Vercel",
-      src: "/images/logos/vercel.png",
+      title: "Spring",
+      src: "/images/logos/spring.png",
 
       className: "h-10 w-24",
     },
+    {
+      title: "SQL",
+      src: "/images/logos/sql-2.webp",
+
+      className: "h-10 w-24",
+    },
+    {
+      title: "mongoDB",
+      src: "/images/logos/mongodb.png",
+
+      className: "h-10 w-24",
+    },
+    
   ];
   return (
     <div>

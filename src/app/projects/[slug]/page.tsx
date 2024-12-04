@@ -15,6 +15,7 @@ type Props = {
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+
   const slug = params.slug;
   const product = products.find((p) => p.slug === slug) as Product | undefined;
   if (product) {
@@ -24,9 +25,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   } else {
     return {
-      title: "Projects | John Doe",
+      title: "Tyler Wade - Software Engineer",
       description:
-        "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+        "Tyler Wade is a Software Engineer that loves building products and web apps that can impact millions of lives.",
     };
   }
 }

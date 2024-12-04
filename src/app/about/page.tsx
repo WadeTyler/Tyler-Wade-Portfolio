@@ -10,9 +10,9 @@ import { motion } from "framer-motion";
 import About from "@/components/About";
 
 export const metadata: Metadata = {
-  title: "About | John Doe",
+  title: "Tyler Wade - Software Engineer",
   description:
-    "John Doe is a developer, writer and speaker. He is a digital nomad and travels around the world while working remotely.",
+    "Tyler Wade is Software Engineer that loves building products and web apps that can impact millions of lives.",
 };
 
 export default function AboutPage() {
