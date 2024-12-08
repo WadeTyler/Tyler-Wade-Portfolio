@@ -8,6 +8,9 @@ import haydenImage1 from "/public/images/products/hayden1.png";
 import haydenImage2 from "/public/images/products/hayden2.png";
 import haydenImage3 from "/public/images/products/hayden3.png";
 
+import lighthouseThumbnail from "/public/images/products/lighthouse-thumbnail.png";
+import lighthouseImage1 from "/public/images/products/lighthouse-1.png";
+import lighthouseImage2 from "/public/images/products/lighthouse-2.png";
 
 export const products = [
   {
@@ -34,10 +37,30 @@ export const products = [
     ),
   },
   {
+    href: "https://lighthouse.tylerwade.net/",
+    title: "The Lighthouse",
+    description:
+      "A Website for the The Lighthouse Restaurant & Dock Bar.",
+    thumbnail: lighthouseThumbnail,
+    images: [lighthouseImage1, lighthouseImage2],
+    stack: ["HTML", "CSS", "JavaScript"],
+    slug: "lighthouse",
+    content: (
+      <div>
+        <p>
+         Located where the Chesapeake Bay and Potomac River converge, The Lighthouse is a beach-chic hospitality destination on Maryland’s Western Shore. World-class restaurant, uniquely curated motel and an eclectic boutique…waterfront with stunning sunset views.
+        </p>{" "}
+        <p>
+          The Lighthouse is a recently refurbished 1940s-era fishing camp in St. Mary’s County, Maryland. They have brought this beloved property back to life with an artful interpretation of its restaurant, motel and pier, adding gardens both for food source and relaxation.
+        </p>
+      </div>
+    ),
+  },
+  {
     href: "https://haydenhester.tylerwade.net/",
     title: "Hayden Hester - Musician",
     description:
-      "A Frontend website for the musical artist, Hayden Hester.",
+      "A Website for the musical artist, Hayden Hester.",
     thumbnail: haydenThumbnail,
     images: [haydenImage1, haydenImage2, haydenImage3],
     stack: ["HTML", "CSS", "JavaScript"],
