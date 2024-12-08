@@ -33,9 +33,9 @@ export const SingleProduct = ({ product }: { product: Product }) => {
           alt="thumbnail"
           height="1000"
           width="1000"
-          className="rounded-md object-contain"
+          className="rounded-md object-contain shadow-2xl shadow-zinc-700"
         />
-        <div className="absolute bottom-0 bg-white h-40 w-full [mask-image:linear-gradient(to_bottom,transparent,white)]" />
+  
       </motion.div>
       <div className="flex flex-row justify-center my-8 flex-wrap">
         {product.images.map((image, idx) => (
